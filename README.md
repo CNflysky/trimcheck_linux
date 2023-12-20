@@ -1,5 +1,6 @@
 # trimcheck_linux
 a small utility to verify your ssd's trim functionality.
+[简体中文(Simplified Chinese)](./README_zh.md)
 
 # how it works
 create file -> get its offset -> delete file -> trigger trim -> read offset -> compare result.
