@@ -25,6 +25,11 @@ lsblk -D /dev/sda
 ```
 if the column DISC_MAX is 0, then it does not support trim.
 
+then mount partition:  
+```bash
+sudo mount /dev/sda1 /mnt
+```
+run the program:
 ```bash
 sudo cp trimcheck /mnt
 cd /mnt
